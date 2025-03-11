@@ -63,9 +63,6 @@ function Habits() {
   
   
   useEffect(() => {
-    //resetStatus()
-    
-    
     const checkDateChange = () => {
       let newDay = new Date().toDateString()
       if (newDay !== currentDay){
@@ -173,9 +170,9 @@ function Habits() {
           <span className='dl-add-btn' onClick={addHabit}>Add</span>
         </div>
       </DialogBox>
-       
+       <span className="DateTime">Today, {String(Date()).slice(0, 15)}</span>
       <CardContainer cls="card-cont-top">
-        <span className="DateTime">Today, {String(Date()).slice(0, 15)}</span>
+        
         {habitsList && habitsList.length > 0 ?
           habitsList.map(habit => (
             <HabitCard 

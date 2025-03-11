@@ -1,8 +1,15 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Trackify
+By @YokoProjects
 
-Currently, two official plugins are available:
+Description:
+>> A Simple , Modern, Light Weight application 
+for tracking your habits and tasks efficiently 
+with charts, and graphs and different plot analytics
+without the need of authentication at all.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+
+
+
+
